@@ -1,0 +1,302 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #f5f5f5;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.navbar-brand{
+    font-weight: 900;
+    font-size: 36px;
+}
+span{
+    color: blue;
+}
+.container{
+    width: 1200px;
+    /* display: flex; */
+    flex-direction: row;
+    /* justify-content: center; */
+    /* position: relative; */
+}
+.row{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+.col-6{
+    width: 50%;
+    /* z-index: 1; */
+    /* position: relative; */
+    margin: 90px 0;
+
+
+}
+.col-6 img{
+    /* position: absolute; */
+    /* marright: 0; */
+margin-top: 10px;
+margin-left: 140px;
+/* background-color: aqua; */
+isolation: auto;
+image-resolution: auto;
+inset-block: set;
+border-image: space;
+border-radius: 50% solid black;
+border: 1px solid rgb(44, 16, 184);
+animation: glow1 5s infinite;
+transition: 1s all;
+transition-property: all;
+animation-timing-function: cubic-bezier(0.165, 0.84, 0.44, 1);
+pointer-events: all;
+cursor: pointer;
+border-radius: 50%;
+}
+@keyframes glow1{
+19%
+{
+    transform: translateX(10px) ;
+}
+20%
+{
+    transform: translateX(10px);
+}
+50%
+{
+    transform: translateX(-10px);
+}
+100%{
+    transform: translate(0) rotateZ(360deg) ;
+}
+
+}
+.col-6 img:hover{
+    background-color: dodgerblue;
+    filter: blur(4px);
+    list-style-image: linear-gradient(to top, green, pink);
+    border-image-slice: 50%;
+    border-radius: 50%;
+}
+.col-6 p{
+    font-family: serif;
+}
+.chegara{
+    width:100%;
+    height: 450px;
+    background-color: rgb(69, 86, 216);
+    /* margin: 50px 0; */
+    /* position: absolute; */
+    left: 50px;
+    top: 380px;
+}   
+.chap{
+    justify-content: left;
+
+}
+.ong{
+    justify-content: right;
+}
+.tchap{
+    text-align: left;
+}
+tong{
+    text-align: right;
+}
+.foto img {
+    /* position:absolute; */
+    width: 100px;
+    height: 100px;
+    /* left: 20px; */
+    display:inline-block;
+    margin: 11px 50px;
+    text-align: center;
+}
+.fot2{
+    display: inline-block;
+}
+.col-4 img{
+    width: 110px;
+    height: 105px;
+}
+.balandlik{
+    width: 100%;
+    height: 150px;
+    background-color: blue;
+        margin: 150px -20px;
+}
+.col-5{
+    width: 41.666%;
+}
+.col-3{
+    width: 39.5%;
+}
+ .ikonka ul li {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content:  flex-end;
+list-style: none;
+/* position: absolute; */
+/* top: 500px; */
+
+}
+a{
+    text-decoration: none;
+    /* display: flex; */
+}
+
+ul li {
+    /* display: flex; */
+position: relative;
+left: 250px;
+} 
+#iki {
+    font-optical-sizing: inherit;
+    /* position: absolute; */
+}
+#iki h2{
+    color: rgb(68, 147, 147);
+    text-transform: uppercase;
+    font-size: 18px;
+    text-align: center;
+    margin:5px 0;
+    display: block;
+    font-family: serif;
+}
+#iki h3{
+  color: white;
+    font-weight: 500;
+    text-align: center;
+    font-size: 32px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+margin: 10px 0;
+}
+#iki h4{
+    color: rgba(240, 255, 255, 0.821);
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 10px 0;
+}
+
+#uch{
+    margin: 150px 0;
+    /* position: absolute; */
+}
+.col-6 button{
+background-color: rgba(45, 45, 129, 0.618);
+border-radius: 10px;
+/* border-top: 2px solid #000; */
+border: 1px solid transparent;
+/* padding:10px 10px; */
+/* width:120px; */
+height: 50px;
+margin: 0 10px;
+transition: .3s all;
+transition-property: all;
+padding: 0 5px;
+}
+.col-6 input:nth-of-type(1){
+    border-radius: 10px;
+    display: block;
+    height: 30px;
+    border-bottom: 1px solid black  ;
+    border: none;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; 
+}
+.col-6 button:hover{
+    border-radius: 15px;
+    border: none;
+    font-family: sans-serif;
+}
+.col-6 button:active{
+    color: #f5f5f5;
+    background-image: linear-gradient(to right, rgb(0, 0, 255), rgba(100, 175, 100, 0.528));
+}
+#uch .col-4 h1{
+    color: rgb(18, 35, 220);
+    font-size: 18px;
+    text-transform: capitalize;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+} 
+#uch .col-4 p{
+    color: rgba(169, 150, 125, 0.835);
+font-family:  sans serif;
+}
+#tort h1{
+    font-family: serif;
+    color: beige;
+    font-size: 26px;
+}
+#tort h2{
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-size: 18px;
+color: azure;
+font-weight: 500;
+}
+#tort button{
+    border: 2px solid darkblue;
+    background-color: transparent;
+    color: dodgerblue;
+    border-radius: 7%;
+    color: blanchedalmond;
+    font-family: 'Times New Roman', Times, serif;
+    border-color: turquoise;
+    padding: 10px;
+    transition: 1s all;
+    transition-duration: 1s;
+    background-image: radial-gradient(rgb(67, 67, 202), rgba(83, 153, 83, 0.348), rgb(0, 111, 222));
+    transition-delay: 1s;
+}
+#tort button:hover{
+    color: aqua;
+    background-image: linear-gradient(to right, rgba(34, 34, 213, 0.529),rgba(122, 184, 122, 0.644),pink);
+transform: scale(100px) rotate3d(1, 1, 0, 45deg);
+
+}
+#besh p{
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+/* color: rgba(196, 213, 217, 0.418); */
+color: #666;
+pointer-events: all;
+cursor: pointer;
+position: absolute;
+margin: 18px -65px;
+}
+.col-3{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+#besh ul  {
+    display: flex;
+    margin: 5px 10px;
+    justify-content: space-around;
+    align-items: flex-end;
+    position: relative;
+    left: 99px;
+    font-size: 36px;
+    background-repeat: 10px;
+    /* color: cadetblue; */
+    /* background-color: cadetblue; */
+/* top: 10px; */
+}
+.col-3 h4{
+    position: absolute;
+    right: 380px;
+    top: 1880px;
+    font-size: 18px;
+    color: #666;
+}
+ form h2{
+    margin: 0 20px;
+    display: block;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+form button{
+    border-color: blue;
+}
